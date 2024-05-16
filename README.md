@@ -27,9 +27,11 @@ I'm working on a web solution so we do not have to run anything in our computers
 
 ## How to use
 Open a command shell and run:
+
 `python card-gen.py <output_folder> <template_file> <data_file>`
 
 Optionally, you can name the resulting HTML file by appending its name at the end:
+
 `python card-gen.py <output_folder> <template_file> <data_file> "index"`
 
 Adding `--debug` at the end will enable debug mode.
