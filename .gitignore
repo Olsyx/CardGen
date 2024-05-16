@@ -1,3 +1,9 @@
+### PROJECT SPECIFIC
+fonts/
+fonts.json
+
+
+### GITHUB PYTHON GITIGNORE
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
