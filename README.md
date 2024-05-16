@@ -21,9 +21,10 @@ See more in the How to use section!
 I'm working on a web solution so we do not have to run anything in our computers, but until then, this is what you will need: 
 
 - Python - I'm using 3.10.11, but any version will probably work!
-- Selenium
+- PIL (pillow)
+- urllib3
+- Selenium, using the Chrome web driver - but you may change the driver in the WebBrowser.py file.
 - pdfimages - for pdf image and font extraction.
-- Google Chrome - you may change the browser in the WebBrowser.py file.
 
 ## How to use
 Open a command shell and run:
