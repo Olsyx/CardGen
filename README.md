@@ -1,20 +1,26 @@
 # CardGen
 Generate cards in bulk for your TTRPGs! 
 
-Have you ever needed to generate a hundred cards that looked all the same (or almost!) except for the data inside?
+Have you ever needed to generate a hundred cards that looked all the same (or almost!)? 
 
-I have! And I couldn't find a way to achieve that without spending a thousand hours tirelessly customizing card after card using an Image Editor Software like Photoshop or Gimp.
+I have!
 
-So I came up with this! Using CardGen, you can input *templates* and *data sets*, and the algorithm will do the rest! 
+And I couldn't find a way that did not involve spending a thousand hours, tirelessly customizing card after card, using something like Photoshop or Gimp.
 
-Templates are highly customizable, but what if that specific card has a name that is just _a tad_ too big for that box? No worries, I got you! Data sets can override anything in a template if needed, or even adapt the space they take up based on surrounding elements.
+So I came up with this! Using CardGen, you can input **templates** and **data sets**, and the program will do the rest! 
+
+Templates are highly customizable, but what if that specific card has a name that is just _a tad_ too big for that title box? 
+
+No worries, I got you! 
+
+Data sets can override anything in a template if needed, or even adapt the space they take up based on surrounding elements.
 
 See more in the How to use section!
 
 ## Dependencies
 I'm working on a web solution so we do not have to run anything in our computers, but until then, this is what you will need: 
 
-- Python - I'm using 3.10.11, but any will probably work!
+- Python - I'm using 3.10.11, but any version will probably work!
 - Selenium
 - pdfimages - for pdf image and font extraction.
 - Google Chrome - you may change the browser in the WebBrowser.py file.
